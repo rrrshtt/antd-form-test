@@ -1,8 +1,8 @@
 import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import cityForm from '../features/cityForm/cityFormSlice';
 
 export default configureStore({
   reducer: {
-    counter: counterReducer,
+    cityForm: cityForm
   },
 });
